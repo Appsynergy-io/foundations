@@ -81,8 +81,7 @@ server-client-common-default = ["settings", "client-telemetry", "testing"]
 settings = [
     "dep:foundations-macros",
     "dep:serde_path_to_error",
-    "dep:serde_yaml",
-    "dep:yaml-merge-keys",
+    "serde-saphyr",
     "dep:serde",
     "dep:indexmap",
     "dep:zeroize",
